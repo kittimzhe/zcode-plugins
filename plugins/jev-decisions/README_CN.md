@@ -18,7 +18,7 @@
 
 ## 网络访问、依赖与副作用
 
-- 启用后，服务通过 `npx -y @jkudish/jev-mcp@0.9.0` 启动：Node 首次运行会从 npm registry 下载该包及其依赖。版本已固定，升级请谨慎操作。
+- 启用后，服务通过 `npx -y @jkudish/jev-mcp@0.10.0` 启动：Node 首次运行会从 npm registry 下载该包及其依赖。版本已固定，升级请谨慎操作。
 - 每次工具调用都会把输入文本发送到 TypeSafe Jev API（可通过服务自身配置切换到其他 Jev 兼容提供方）。输入会离开本机——除非策略允许，请勿发送密钥或私有源码。
 - TypeSafe API 按 key 所属账户的输入 token 计费；每次成功调用都会返回 token 用量。
 - 本插件不写文件、不注册 Hook，除 MCP 服务进程本身外不执行任何命令。

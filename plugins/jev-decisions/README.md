@@ -18,7 +18,7 @@ Typical uses: screen fetched or pasted text before it enters context, verify cla
 
 ## Network access, dependencies, and side effects
 
-- When enabled, the server is started with `npx -y @jkudish/jev-mcp@0.9.0`: Node downloads that package (and its dependencies) from the npm registry on first run. The version is pinned; bump it deliberately.
+- When enabled, the server is started with `npx -y @jkudish/jev-mcp@0.10.0`: Node downloads that package (and its dependencies) from the npm registry on first run. The version is pinned; bump it deliberately.
 - Every tool call sends the input text to the TypeSafe Jev API (configurable to other Jev-compatible providers via the server's own configuration). Inputs leave the machine — do not send secrets or private source unless policy allows it.
 - Calls against the TypeSafe API are billed per input token to the API key's account; every successful result reports token usage.
 - The plugin writes no files, registers no hooks, and runs no commands other than the MCP server process itself.
