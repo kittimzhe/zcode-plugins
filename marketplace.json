@@ -1389,7 +1389,7 @@
     },
     {
       "name": "jev-decisions",
-      "source": "./plugins/jev-decisions",
+      "source": "./external_plugins/jev-decisions",
       "description": "Calibrated judgment tools for ZCode agents via the community jev-mcp server: verify claims against evidence, screen untrusted text, classify, decide, and gate task completion. Ships a skill that teaches when to reach for a judgment tool instead of answering directly.",
       "description_i18n": {
         "en": "Calibrated judgment tools for ZCode agents via the community jev-mcp server: verify claims against evidence, screen untrusted text, classify, decide, and gate task completion. Ships a skill that teaches when to reach for a judgment tool instead of answering directly.",
