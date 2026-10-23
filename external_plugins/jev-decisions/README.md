@@ -4,7 +4,7 @@ Calibrated judgment tools for ZCode agents, built on [TypeSafe Jev](https://docs
 
 ## What it does
 
-- Declares a `jev` MCP server (disabled by default) that exposes eleven judgment tools: `jev_verify`, `jev_screen`, `jev_noul`, `jev_find`, `jev_rerank`, `jev_classify`, `jev_decide`, `jev_compare`, `jev_extract`, `jev_review`, `jev_gate`.
+- Declares a `jev` MCP server (enabled with the plugin) that exposes eleven judgment tools: `jev_verify`, `jev_screen`, `jev_noul`, `jev_find`, `jev_rerank`, `jev_classify`, `jev_decide`, `jev_compare`, `jev_extract`, `jev_review`, `jev_gate`.
 - Ships a `jev-judgment` skill that teaches the agent when to reach for a judgment tool instead of answering from its own reading — adapted from the canonical skill in the `@jkudish/jev-mcp` package.
 
 Typical uses: screen fetched or pasted text before it enters context, verify claims against cited evidence, classify support tickets against a shared catalog, pick between implementation options, review a diff before calling the task done, and gate completion claims against real test output.

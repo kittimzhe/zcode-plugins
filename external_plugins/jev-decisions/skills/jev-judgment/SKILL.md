@@ -49,7 +49,7 @@ Eleven tools built on TypeSafe's Jev, served by the community [jev-mcp](https://
 
 ## Setup
 
-The `jev` MCP server ships disabled. In ZCode plugin settings, set the `TypeSafe API key` user configuration and enable the server, then start a new session. Server keys are namespaced as `plugin:jev-decisions:jev`.
+The `jev` MCP server is enabled together with the plugin. In ZCode plugin settings, set the `TypeSafe API key` user configuration, then start a new session. Server keys are namespaced as `plugin:jev-decisions:jev`.
 
 ## Attribution
 

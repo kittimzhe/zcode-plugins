@@ -4,7 +4,7 @@
 
 ## 功能
 
-- 声明一个 `jev` MCP 服务（默认禁用），暴露十一个判断工具：`jev_verify`、`jev_screen`、`jev_noul`、`jev_find`、`jev_rerank`、`jev_classify`、`jev_decide`、`jev_compare`、`jev_extract`、`jev_review`、`jev_gate`。
+- 声明一个 `jev` MCP 服务（随插件一起启用），暴露十一个判断工具：`jev_verify`、`jev_screen`、`jev_noul`、`jev_find`、`jev_rerank`、`jev_classify`、`jev_decide`、`jev_compare`、`jev_extract`、`jev_review`、`jev_gate`。
 - 内置 `jev-judgment` Skill，教会智能体何时应调用判断工具、而不是凭自己的阅读直接作答——内容改编自 `@jkudish/jev-mcp` 包内的官方 Skill。
 
 典型场景：外部获取或粘贴的文本进入上下文前先筛查、对照引用证据核实结论、按共享类目批量分类工单、在实现方案间择优、宣布任务完成前审查 diff、把"测试已通过"的声明与真实测试输出对账。
