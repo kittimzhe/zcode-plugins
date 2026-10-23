@@ -13,12 +13,12 @@ Typical uses: screen fetched or pasted text before it enters context, verify cla
 
 1. Install the plugin, then open its settings in ZCode.
 2. Enter your **TypeSafe API key** (from the TypeSafe console) in the `TypeSafe API key` field.
-3. Enable the `jev` MCP server (it ships disabled), then start a new session.
+3. Start a new session — the `jev` MCP server is enabled together with the plugin (ZCode bundles no separate MCP toggle).
 4. Ask the agent to screen untrusted text or verify a claim; the skill triggers when a judgment task appears.
 
 ## Network access, dependencies, and side effects
 
-- When enabled, the server is started with `npx -y @jkudish/jev-mcp@0.10.0`: Node downloads that package (and its dependencies) from the npm registry on first run. The version is pinned; bump it deliberately.
+- The server is enabled with the plugin and started via `npx -y @jkudish/jev-mcp@0.10.0`: Node downloads that package (and its dependencies) from the npm registry on first run. The version is pinned; bump it deliberately.
 - Every tool call sends the input text to the TypeSafe Jev API (configurable to other Jev-compatible providers via the server's own configuration). Inputs leave the machine — do not send secrets or private source unless policy allows it.
 - Calls against the TypeSafe API are billed per input token to the API key's account; every successful result reports token usage.
 - The plugin writes no files, registers no hooks, and runs no commands other than the MCP server process itself.

@@ -1,6 +1,6 @@
 ---
 name: jev-judgment
-description: Conventions for the Jev judgment tools (jev_verify, jev_screen, jev_noul, jev_find, jev_rerank, jev_classify, jev_decide, jev_compare, jev_extract, jev_review, jev_gate). Use when screening fetched or pasted content before it enters context, verifying claims against cited evidence, ranking or classifying items by meaning, extracting fields with a recognizable shape, reviewing a patch, gating task completion, or judging how likely a proposition is — and when choosing between a judgment tool, ripgrep, or plain reading. Requires the bundled jev MCP server to be enabled and a TypeSafe API key.
+description: Conventions for the Jev judgment tools (jev_verify, jev_screen, jev_noul, jev_find, jev_rerank, jev_classify, jev_decide, jev_compare, jev_extract, jev_review, jev_gate). Use when screening fetched or pasted content before it enters context, verifying claims against cited evidence, ranking or classifying items by meaning, extracting fields with a recognizable shape, reviewing a patch, gating task completion, or judging how likely a proposition is — and when choosing between a judgment tool, ripgrep, or plain reading. Requires the bundled jev MCP server (enabled together with the plugin) and a TypeSafe API key.
 ---
 
 # Jev judgment tools

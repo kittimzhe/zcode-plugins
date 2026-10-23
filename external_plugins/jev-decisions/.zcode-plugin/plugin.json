@@ -21,7 +21,7 @@
   "userConfig": {
     "typesafeApiKey": {
       "title": "TypeSafe API key",
-      "description": "API key for the TypeSafe Jev service used by the bundled jev-mcp server. Required only when the jev MCP server is enabled.",
+      "description": "API key for the TypeSafe Jev service used by the bundled jev-mcp server (enabled with the plugin). Required to use the judgment tools.",
       "type": "string",
       "default": ""
     }
